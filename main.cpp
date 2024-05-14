@@ -3,12 +3,12 @@
 int main() {
 
     BMP bmp1("im.bmp");
-    //Поворот на 90 градусов по часовой стрелке
+    //РџСЂРѕС†РµСЃСЃ РїРѕРІРѕСЂРѕС‚Р° РЅР° 90 РіСЂР°РґСѓСЃРѕРІ РїРѕ С‡Р°СЃРѕРІРѕР№ СЃС‚СЂРµР»РєРµ
     bmp1.rotate_clockwise_90();
     bmp1.write("output_clockwise.bmp");
 
     BMP bmp2("im.bmp");
-    //Против часовой
+    //РџСЂРѕС†РµСЃСЃ РїРѕРІРѕСЂРѕС‚Р° РЅР° 90 РіСЂР°РґСѓСЃРѕРІ РїСЂРѕС‚РёРІ С‡Р°СЃРѕРІРѕР№ СЃС‚СЂРµР»РєРё
     bmp2.rotate_counterclockwise_90();
     bmp2.write("output_counterclockwise.bmp");
 
