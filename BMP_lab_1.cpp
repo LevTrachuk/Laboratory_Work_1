@@ -1,4 +1,4 @@
-#include "bmp.h"
+#include "classbmp.h"
 
 BMP::BMP(const char* fname) {
     read(fname);
