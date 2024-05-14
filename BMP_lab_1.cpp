@@ -9,7 +9,7 @@ void BMP::read(const char* fname) {
     if (inp) {
         inp.read((char*)&file_header, sizeof(file_header));
         if (file_header.file_type != 0x4D42) {
-            throw std::runtime_error("Error! Unrecognized file format.");
+            throw std::runtime_error("Error!");
         }
         inp.read((char*)&bmp_info_header, sizeof(bmp_info_header));
 
